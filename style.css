@@ -1,0 +1,123 @@
+.en-tete{
+    border-radius: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    background-color: limegreen;
+    width: 400px;
+    height: 75px;
+    align-items: center;
+}
+
+#score{
+    margin-left: 30px;
+    font-size: 3rem;
+}
+
+.ScoreApple {
+    width: 9%;
+}
+
+.sound{
+    cursor: pointer;
+    margin-right: 30px;
+}
+
+canvas{
+    border: 2px solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 15px 10px 10px black;
+}
+body {
+    background-repeat: no-repeat;
+    height: 90vh;
+    background-image: url(image/jungle.jpg);
+    background-size: cover;
+}
+
+h1{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: lightgreen;
+    text-align: center;
+    font-size: 6rem;
+    backdrop-filter: blur(10px);
+}
+
+main{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.perdu{
+    margin-top: 70px;
+    width: 350px;
+    height: 350px;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+}
+
+.contenu{
+    background-image: url(image/fond_perdu.jpg);
+    background-size: cover;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.en-teteScore {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titlteLose{
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.ScoreTrphy{
+    width: 20%;
+}
+
+#scoreTotal{
+    margin-left: 10px;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 3rem;
+    backdrop-filter: blur(10px);
+}
+
+#reloadButton {
+    cursor: pointer;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    background-color: limegreen;
+    margin-top: 50px;
+}
+
+#reloadButton a{
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    bottom: 0;
+    display: flex;
+    width: 99%;
+    position: absolute;
+    height: 50px;
+    background-color: black;
+    color: white;
+    justify-content: center;
+}
+
